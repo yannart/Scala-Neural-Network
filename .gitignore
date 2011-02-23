@@ -1,6 +1,11 @@
+#Mac DS_Store files
 .DS_Store
+
+#Eclipse project configuration
 .classpath
 .project
+
+#Internal and compile SBT files
 target
 lib_managed
 project/boot
@@ -11,3 +16,8 @@ project/plugins/src_managed/
 project/plugins/target/
 .scala_dependencies
 .settings/
+
+#IntelliJ Idea project files
+*.iml
+*.ipr
+*.iws
