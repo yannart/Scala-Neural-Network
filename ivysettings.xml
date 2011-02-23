@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivysettings>
+  <settings defaultResolver="chained" />
+  <resolvers>
+    <chain name="chained">
+		<ibiblio name="central" m2compatible="true" />
+		<ibiblio name="akka" root="http://akka.io/repository/" m2compatible="true" />
+		<ibiblio name="java.net" root="http://download.java.net/maven/2/" m2compatible="true" />
+		<ibiblio name="jboss" root="http://repository.jboss.org/nexus/content/groups/public-jboss/" m2compatible="true" />
+		<ibiblio name="scala-tools" root="http://nexus.scala-tools.org/content/repositories/public/" m2compatible="true" />
+		<ibiblio name="guiceyfruit" root="http://guiceyfruit.googlecode.com/svn/repo/releases/" m2compatible="true" />
+    </chain>
+  </resolvers>
+</ivysettings>
