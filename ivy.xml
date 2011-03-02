@@ -3,10 +3,9 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
     
-	<info organisation="com.yannart" module="AkkaIntegralCalculato" />
+	<info organisation="com.yannart" module="Neural-network" />
 			
 	<dependencies>
-		<dependency org="se.scalablesolutions.akka" name="akka" rev="1.0" />
 	</dependencies>
 </ivy-module>
 
