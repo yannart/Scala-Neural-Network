@@ -1,4 +1,4 @@
-Neural Network
+Scala Neural Network
 ====
 
 An implementation in Scala written by Yann Nicolas
@@ -17,13 +17,14 @@ Running
 
 To compile and run the XOR example use 'sbt run'. 
 
-- First, an new Perceptron will be created with two hidden layers, one of 5 neurons and another of 10 neurons.
+- First, a new Perceptron will be created with two hidden layers, one of 5 neurons and another of 10 neurons.
 - Then, 100 iteration will be used to train the perceptron to be able to solve XOR operations
 - The perceptron configuration will be saved in the XOR.xml file
 
 - The perceptron will be loaded from the XOR.xml file
 - XOR operations will be run to verify the perceptron outputs
 
+You can also use the 'sbt eclipse' to generate an Eclipse project.
 
 Notice
 ------
