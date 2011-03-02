@@ -317,8 +317,8 @@ object NeuralNetworkApp extends Application {
 		val outputs = Array[Double](0, 1, 1, 0)
 		
 		println("Training neural network with XOR")
-		//10000 iteration to train the network
-		for(i <- 0 until 10000) {
+		//100 iterations to train the network
+		for(i <- 0 until 100) {
 			for(i <- 0 until inputs.size) {
 				perceptron.run(inputs(i))
 				perceptron.calculateErrors(inputs(i), Array[Double](outputs(i)))
